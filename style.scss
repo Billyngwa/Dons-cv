@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap'); 
+$font-family:'Poppins', sans-serif;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 10px;
+}
+header{
+    background-color: darkcyan;
+    .header-container{
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        align-items:center;
+        gap: 5rem;
+        // justify-content: space-between;
+        background-color: aliceblue;
+        div.photo{
+            width: 100px;
+            height: 100px;
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+            }
+        }
+        div.sheena-laure{
+            div.sheena{
+                h1.dons-name{
+                    font-size:3rem ;
+                    font-family: $font-family;
+                    color: darkcyan;
+                    margin: 0px;
+                }
+                p.heading-description{
+                    font-size:1.7rem ;
+                    font-family: $font-family;
+                    color: rgba(0, 139, 139, 0.575);
+                }
+            }
+            div.laure{
+                display: flex;
+                justify-content: space-between;
+                div.head-address{
+                    width: 35%;
+                    display: flex;
+                    flex-direction: column;
+                    span{
+                        font-size:1.5rem ;
+                        font-family: $font-family;
+                        color: #545c59;
+                    }
+                }
+                div.email-address{
+                    width: 40%;
+                    p{
+                        display: flex;
+                        justify-content: space-between;
+                        font-size:1.5rem ;
+                        font-family: $font-family;
+                        color: blue;
+                        align-items: center;
+                        i{
+                            color: #545c59;
+                        }
+                        span{
+                            margin-left:2rem;
+                            a{
+                                text-decoration: none;
+                                &:visited{
+                                    color: blue;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+main{
+    width: 80%;
+    margin-left: 10%;
+    section.profile-education{
+        display: flex;
+        gap:.3rem;
+        margin-top: 8rem;
+        div.profile{
+            width: 50%;
+            border-bottom:  1px solid darkcyan;;
+            border-right: 1px solid rgba(0, 139, 139, 0.575); ;
+            h1.profile-heading{
+                font-size:2.5rem ;
+                font-family: $font-family;
+                color: darkcyan;
+                margin: 0px;
+            }
+            p.profile-description{
+                font-size:1.6rem ;
+                font-family: $font-family;
+                color: #545c59;
+
+            }
+        }
+        div.education{
+            border-left:1px solid rgba(0, 139, 139, 0.575); ;;
+            border-bottom:  1px solid darkcyan;;
+            h1.education-heading{
+                font-size:2.5rem ;
+                font-family: $font-family;
+                color: darkcyan;
+                margin: 0px;
+                margin-left: 5%;
+            }
+            div.education-description{
+                margin: 0rem 0rem 2.5rem 0rem;
+                width: 90%;
+                margin-left: 5%;
+                h3{
+                    font-size:1.6rem ;
+                    font-family: $font-family;
+                    color: rgb(3, 66, 66);
+                    margin: 0px;
+                }
+                p.school-description{
+                    font-size:1.6rem ;
+                    font-family: $font-family;
+                    color: #545c59;
+                }
+            }
+        }
+    }
+    section.expertise-experience{
+        display: flex;
+        margin-bottom: 2rem;
+        gap:.3rem;
+        justify-content: space-between;
+        margin-top: 8rem;
+        div.expertise{
+            width: 50%;
+            border-top:  1px solid darkcyan;;
+            border-right:1px solid rgba(0, 139, 139, 0.575); ;;
+            h1.expertise-heading{
+                font-size:2.5rem ;
+                font-family: $font-family;
+                color: darkcyan;
+                margin: 0px;
+            }
+            div.expert-fields{
+                div.expertise-choice{
+                    margin-top: .9rem;
+                    margin-bottom: .9rem;
+                    h1.topic{
+                        font-size:1.6rem ;
+                        font-family: $font-family;
+                        color: rgb(3, 66, 66);
+                        margin: 0px 0px 10px 0px ;
+                    }
+                    div.percentage-expertise{
+                        display: flex;
+                        align-items: center;
+                        width: 80%;
+                        p.percent-expertise{
+                            width: 60%;
+                            height: 1rem;
+                            background-color: darkcyan;
+                        }
+                        p.percent-non-expertise{
+                            width: 40%;
+                            height: 1rem;
+                            background-color: rgba(0, 139, 139, 0.267);
+                        }
+                    }
+                }
+            }
+        }
+        div.experience{
+            border-top:  1px solid darkcyan;;
+            border-left:1px solid rgba(0, 139, 139, 0.575); ;;
+            h1.experience-heading{
+                font-size:2.5rem ;
+                font-family: $font-family;
+                color: darkcyan;
+                margin: 0px;
+                margin-left: 5%;
+            }
+           
+            div.experience-description{
+                margin: 0rem 0rem 2.5rem 0rem;
+            width: 90%;
+            margin-left: 5%;
+                div.hospital-and-date{
+                    display: flex;
+                    align-items: center;
+                    gap: 2rem;
+                    h3{
+                        font-size:1.6rem ;
+                        font-family: $font-family;
+                        color: rgb(3, 66, 66);
+                        margin: 0px;
+                    }
+                    h4{
+                        font-size:1.2rem ;
+                        font-family: $font-family;
+                        color: rgb(3, 66, 66);
+                        margin: 0px;
+                    }
+                }
+
+                div.work-description{
+                    font-size:1.6rem ;
+                    font-family: $font-family;
+                    color: #545c59;
+                    ul{
+                        margin-left: 5%;
+                        margin-top: 1rem;
+                        li{
+                            font-size:1.6rem ;
+                            font-family: $font-family;
+                            color: #545c59;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

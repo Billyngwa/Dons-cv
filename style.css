@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 10px;
+}
+
+header {
+  background-color: darkcyan;
+}
+header .header-container {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  background-color: aliceblue;
+}
+header .header-container div.photo {
+  width: 100px;
+  height: 100px;
+}
+header .header-container div.photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+header .header-container div.sheena-laure div.sheena h1.dons-name {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: darkcyan;
+  margin: 0px;
+}
+header .header-container div.sheena-laure div.sheena p.heading-description {
+  font-size: 1.7rem;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 139, 139, 0.575);
+}
+header .header-container div.sheena-laure div.laure {
+  display: flex;
+  justify-content: space-between;
+}
+header .header-container div.sheena-laure div.laure div.head-address {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+header .header-container div.sheena-laure div.laure div.head-address span {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #545c59;
+}
+header .header-container div.sheena-laure div.laure div.email-address {
+  width: 40%;
+}
+header .header-container div.sheena-laure div.laure div.email-address p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: blue;
+  align-items: center;
+}
+header .header-container div.sheena-laure div.laure div.email-address p i {
+  color: #545c59;
+}
+header .header-container div.sheena-laure div.laure div.email-address p span {
+  margin-left: 2rem;
+}
+header .header-container div.sheena-laure div.laure div.email-address p span a {
+  text-decoration: none;
+}
+header .header-container div.sheena-laure div.laure div.email-address p span a:visited {
+  color: blue;
+}
+
+main {
+  width: 80%;
+  margin-left: 10%;
+}
+main section.profile-education {
+  display: flex;
+  gap: 0.3rem;
+  margin-top: 8rem;
+}
+main section.profile-education div.profile {
+  width: 50%;
+  border-bottom: 1px solid darkcyan;
+  border-right: 1px solid rgba(0, 139, 139, 0.575);
+}
+main section.profile-education div.profile h1.profile-heading {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  color: darkcyan;
+  margin: 0px;
+}
+main section.profile-education div.profile p.profile-description {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  color: #545c59;
+}
+main section.profile-education div.education {
+  border-left: 1px solid rgba(0, 139, 139, 0.575);
+  border-bottom: 1px solid darkcyan;
+}
+main section.profile-education div.education h1.education-heading {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  color: darkcyan;
+  margin: 0px;
+  margin-left: 5%;
+}
+main section.profile-education div.education div.education-description {
+  margin: 0rem 0rem 2.5rem 0rem;
+  width: 90%;
+  margin-left: 5%;
+}
+main section.profile-education div.education div.education-description h3 {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  color: rgb(3, 66, 66);
+  margin: 0px;
+}
+main section.profile-education div.education div.education-description p.school-description {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  color: #545c59;
+}
+main section.expertise-experience {
+  display: flex;
+  margin-bottom: 2rem;
+  gap: 0.3rem;
+  justify-content: space-between;
+  margin-top: 8rem;
+}
+main section.expertise-experience div.expertise {
+  width: 50%;
+  border-top: 1px solid darkcyan;
+  border-right: 1px solid rgba(0, 139, 139, 0.575);
+}
+main section.expertise-experience div.expertise h1.expertise-heading {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  color: darkcyan;
+  margin: 0px;
+}
+main section.expertise-experience div.expertise div.expert-fields div.expertise-choice {
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+}
+main section.expertise-experience div.expertise div.expert-fields div.expertise-choice h1.topic {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  color: rgb(3, 66, 66);
+  margin: 0px 0px 10px 0px;
+}
+main section.expertise-experience div.expertise div.expert-fields div.expertise-choice div.percentage-expertise {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+main section.expertise-experience div.expertise div.expert-fields div.expertise-choice div.percentage-expertise p.percent-expertise {
+  width: 60%;
+  height: 1rem;
+  background-color: darkcyan;
+}
+main section.expertise-experience div.expertise div.expert-fields div.expertise-choice div.percentage-expertise p.percent-non-expertise {
+  width: 40%;
+  height: 1rem;
+  background-color: rgba(0, 139, 139, 0.267);
+}
+main section.expertise-experience div.experience {
+  border-top: 1px solid darkcyan;
+  border-left: 1px solid rgba(0, 139, 139, 0.575);
+}
+main section.expertise-experience div.experience h1.experience-heading {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  color: darkcyan;
+  margin: 0px;
+  margin-left: 5%;
+}
+main section.expertise-experience div.experience div.experience-description {
+  margin: 0rem 0rem 2.5rem 0rem;
+  width: 90%;
+  margin-left: 5%;
+}
+main section.expertise-experience div.experience div.experience-description div.hospital-and-date {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+main section.expertise-experience div.experience div.experience-description div.hospital-and-date h3 {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  color: rgb(3, 66, 66);
+  margin: 0px;
+}
+main section.expertise-experience div.experience div.experience-description div.hospital-and-date h4 {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  color: rgb(3, 66, 66);
+  margin: 0px;
+}
+main section.expertise-experience div.experience div.experience-description div.work-description {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  color: #545c59;
+}
+main section.expertise-experience div.experience div.experience-description div.work-description ul {
+  margin-left: 5%;
+  margin-top: 1rem;
+}
+main section.expertise-experience div.experience div.experience-description div.work-description ul li {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  color: #545c59;
+}/*# sourceMappingURL=style.css.map */
